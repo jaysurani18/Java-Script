@@ -1,3 +1,16 @@
 let x = 18
 ++x
 console.log(x)
+
+
+//////////////////
+
+
+let z = 18;
+z++;
+
+console.log(z);
+
+
+console.log(+true);
+console.log(+"");
