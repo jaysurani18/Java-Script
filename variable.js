@@ -1,4 +1,4 @@
-// const date = 1888;
+// const date = 1888;   using const lifetime save record not change 
 // date = 2024;
 // console.log(date);
 // remeber const can not be changed
