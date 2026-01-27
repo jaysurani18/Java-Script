@@ -5,7 +5,7 @@ let firstName = "jay"
 let lastName = "surani"
 console.log(`hello i am ${firstName} ${lastName} and i am a student`)   // muse concationation in string using backtick ` `         
 
-const name = "hitesh"
+
 const repoCount = 50
 
 // console.log(name + repoCount + " Value");
