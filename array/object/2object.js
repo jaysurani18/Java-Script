@@ -68,6 +68,12 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
+
+//json = JavaScript Object Notation ,it may be in objecr or array formate
+//api = Application Programming Interface
+//this all are json format (api)
+
+
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",

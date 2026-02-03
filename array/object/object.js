@@ -13,6 +13,7 @@ const JsUser = {
     age: 18,
     location: "Jaipur",
     email: "jay@google.com",
+
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
