@@ -21,7 +21,7 @@ function addTwoNumbers(number1, number2){
     // return result
     return number1 + number2
 }
-
+ 
 const result = addTwoNumbers(3, 5)
 
 // console.log("Result: ", result);
@@ -39,11 +39,11 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1, val2, ...num1){  // rest operator
     return num1
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
     username: "hitesh",
