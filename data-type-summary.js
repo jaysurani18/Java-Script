@@ -35,3 +35,12 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// let jay;
+// console.log(jay); // undefined
+
+let j = null
+console.log(j);            // null 
+console.log(typeof j);     // object

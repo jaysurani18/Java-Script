@@ -12,3 +12,9 @@ console.table([name, height, male, weight]);
 // null
 console.log(typeof null);     // null's type is object
 console.log(typeof undefined);     // undefined's type is undefined
+// let jay;
+// console.log(jay); // undefined
+
+let j = null
+console.log(j);            // null 
+console.log(typeof j);     // object
