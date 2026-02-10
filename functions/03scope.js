@@ -34,13 +34,13 @@ function addone(num){
     return num + 1;
 }
  
-addone(5) 
+// addone(5) 
 
-const addtwo = function (num){     // in variable we can declare a function 
-    return num + 2;
-}
+// const addtwo = function (num){     // in variable we can declare a function 
+//     return num + 2;
+// }
 
-addtwo(5)
+// addtwo(5)
 
 
 
