@@ -1,5 +1,5 @@
 const user = {
-    username: "hitesh",
+    username: "jay",
     price: 999,
 
     welcomeMessage: function() {
@@ -9,26 +9,29 @@ const user = {
 
 }
 
-// user.welcomeMessage()
+// user.welcomeMessage() //in object method this keyword point to the object itself so it print hitesh , welcome to website and then it print the whole user object
 // user.username = "sam"
 // user.welcomeMessage()
 
 // console.log(this);
 
+
+
+
 // function chai(){
-//     let username = "hitesh"
+//     let username = "jay"
 //     console.log(this.username);
 // }
 
-// chai()
+// chai()                // it print undefined because in normal function this keyword point to global object and in global object there is no username property so it print undefined
 
 // const chai = function () {
-//     let username = "hitesh"
+//     let username = "jay"
 //     console.log(this.username);
 // }
 
 const chai =  () => {
-    let username = "hitesh"
+    let username = "jay"
     console.log(this);
 }
 
@@ -43,7 +46,7 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "jay"})
 
 
 console.log(addTwo(3, 4))
