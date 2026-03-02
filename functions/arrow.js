@@ -35,6 +35,10 @@ const chai =  () => {
     console.log(this);
 }
 
+const chaai = () => {
+    let username = "jay"
+    console.log(username);
+}
 
 // chai()
 
