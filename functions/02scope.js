@@ -9,7 +9,7 @@
     const website = "youtube"
         var age = 22
 
-}
+} 
 
 // console.log(name); 
 // console.log(website); 
